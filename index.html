@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PHPSetter</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="getuikit/css/uikit.min.css" />
+    <link rel="stylesheet" href="hightlight\styles\a11y-dark.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="Description" content="PHPSetter is a simple tool that can be run in any web browser. ">
+    <meta name="Keywords" content="php, setter, getter, constructor, create setter online, create getter online, online getter, online setter, setter and getter">
+  </head>
+  <body>
+    <div class="main">
+      <h1>PHPSetter</h1>
+      <div>
+          <label for="txtVariables" class="alert">Variables</label>
+          <textarea rows="8" id="txtVariables" class="full-width">a</textarea>
+      </div>
+      <div class="uk-text-right">
+        <label><input type="checkbox" id="cbSetter" value="s" checked> Setter</label>
+        <label><input type="checkbox" id="cbGetter" value="s" checked> Getter</label>
+        <label><input type="checkbox" id="cbConstructor" value="s" checked> Constructor</label>
+        <button class="uk-button uk-button-primary" onclick="CreateData();">Create</button>
+        <a target="_blank" href="https://github.com/satellasoft/PHPSetter" class="uk-button uk-button-default">Help</a>
+      </div>
+
+      <div>
+        <pre><code class="php" id="finalResult"></code></pre>
+      </div>
+
+      <div class="clear"></div>
+      <p>This software was developed by <a href="http://www.gunnarcorrea.com" target="_blank">Gunnar Correa</a>, and is available on Github.</p>
+      <p><a href="https://github.com/satellasoft/PHPSetter" target="_blank">https://github.com/satellasoft/PHPSetter</a></p>
+      <p><a href="https://highlightjs.org" target="_blank">https://highlightjs.org</a></p>
+      <p><a href="https://getuikit.com" target="_blank">https://getuikit.com</a></p>
+    </div>
+    <script src="getuikit\js\uikit.min.js" charset="utf-8"></script>
+    <script src="hightlight\highlight.pack.js" charset="utf-8"></script>
+    <script src="js\script.js"></script>
+  </body>
+</html>
